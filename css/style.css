@@ -10,6 +10,32 @@ body {
   background-color: #f4f4f4;
 }
 
+/* 1. 본문용 기본 폰트 - SeoulHangang */
+@font-face {
+  font-family: 'SeoulHangang';
+  src: url('./fonts/SeoulHangangM.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 2. 제목용 폰트 - SeoulAlrim */
+@font-face {
+  font-family: 'SeoulAlrim';
+  src: url('./fonts/SeoulAlrimTTF-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 전체 기본 폰트는 본문용으로 */
+body {
+  font-family: 'SeoulHangang', sans-serif;
+}
+
+/* 제목 계열만 따로 적용 */
+h1, h2, h3, h4, .display-4, .display-5 {
+  font-family: 'SeoulAlrim', sans-serif;
+}
+
 /* 내비게이션 바 */
 .navbar {
   position: sticky;
