@@ -1,44 +1,49 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <title>Withus 검색</title>
-  <style>
-    body {
-      background-color: #f5f5f5;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding-top: 100px;
-    }
-    h1 {
-      color: #03c75a;
-      font-size: 48px;
-    }
-    input[type="text"] {
-      width: 400px;
-      padding: 14px;
-      font-size: 18px;
-      border: 1px solid #ccc;
-    }
-    input[type="submit"] {
-      padding: 14px 20px;
-      font-size: 18px;
-      background-color: #03c75a;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-    input[type="submit"]:hover {
-      background-color: #028a44;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>홈 | WithUs Engineering</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-  <h1>Withus 검색</h1>
-  <form action="https://search.naver.com/search.naver" method="get" target="_blank">
-    <input type="text" name="query" placeholder="검색어를 입력하세요" />
-    <input type="submit" value="검색" />
-  </form>
+  <!-- 내비게이션 바 -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">WithUs</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">홈</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">포트폴리오</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">회사 소개</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">연락처</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 메인 콘텐츠 -->
+  <main class="container py-4">
+    <section class="hero">
+      <h1>WithUs Engineering</h1>
+      <p>혁신적인 설계와 BIM 전문 기업</p>
+    </section>
+    <section class="awards">
+      <h2>수상 내역</h2>
+      <ul>
+        <li>IF 디자인 어워즈</li>
+        <li>KOHLER BOLD 디자인 어워즈</li>
+        <li>BSA 디자인 어워즈</li>
+        <li>엘르 인터내셔널 디자인 어워즈</li>
+        <li>IDA 디자인 어워즈</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
