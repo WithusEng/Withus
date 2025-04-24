@@ -103,25 +103,7 @@ body {
 */
 }
 
-.about-section {
-  position: relative;
-  background-color: #000;
-  background-blend-mode: overlay;
-}
 
-.about-section::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* 텍스트 가독성 향상용 반투명 레이어 */
-  z-index: 1;
-}
-
-.about-section .container {
-  position: relative;
-  z-index: 2;
-}
 
 
 /* 수상 내역 섹션 */
