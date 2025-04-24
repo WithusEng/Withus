@@ -13,7 +13,7 @@ body {
 /* 1. 본문용 기본 폰트 - SeoulHangang */
 @font-face {
   font-family: 'SeoulHangang';
-  src: url('./fonts/SeoulHangangM.ttf') format('truetype');
+  src: url('fonts/SeoulHangangM.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -21,7 +21,7 @@ body {
 /* 2. 제목용 폰트 - SeoulAlrim */
 @font-face {
   font-family: 'SeoulAlrim';
-  src: url('./fonts/SeoulAlrimTTF-Medium.ttf') format('truetype');
+  src: url('fonts/SeoulAlrimTTF-Medium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
