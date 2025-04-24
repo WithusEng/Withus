@@ -204,6 +204,29 @@ form button:hover {
   background-color: #0056b3;
 }
 
+/* 타임라인 스타일 */
+.timeline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.timeline li {
+  padding: 10px 0;
+  border-left: 3px solid #007bff;
+  margin-left: 10px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.timeline li::before {
+  content: "•";
+  color: #007bff;
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  font-size: 20px;
+}
+
 /* 푸터 */
 footer {
   background-color: #333;
