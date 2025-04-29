@@ -231,7 +231,7 @@ form button:hover {
   padding-left: 0;
 }
 
-.timeline li {
+.timeline div {
   padding: 10px 0;
   border-left: 3px solid #007bff;
   margin-left: 10px;
@@ -239,7 +239,7 @@ form button:hover {
   position: relative;
 }
 
-.timeline li::before {
+.timeline div::before {
   content: "•";
   color: #007bff;
   position: absolute;
