@@ -15,6 +15,11 @@
   src: url('../fonts/SeoulAlrimTTF-Medium.ttf') format('truetype');
 }
 
+.no-underline-space {
+  display: inline-block;
+  text-decoration: none;
+}
+
 body {
   font-family: 'SeoulHangang', sans-serif !important;
   background-color: #f4f4f4;
