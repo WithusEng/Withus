@@ -43,9 +43,6 @@ h1, h2, h3, h4, h5, .display-4, .display-5,
   font-weight: bold;
 }
 
-.navbar .nav-link.active {
-  color: #0d6efd; /* Bootstrap 기본 파란색 */
-
 .navbar .nav-link {
   font-size: 1.1rem;
   color: #333;
