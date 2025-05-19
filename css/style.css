@@ -28,10 +28,10 @@ body {
 */
 
 /* 제목에 해당하는 요소들에 적용 */
+/*
 h1, h2, h3, h4, h5, .display-4, .display-5,
 .navbar .nav-link,  /* 네비게이션 제목 폰트 */
 .navbar-brand       /* 사이트 로고/타이틀도 보통 제목 폰트로 설정 */
-/*
 {
   font-family: 'SeoulAlrim', sans-serif !important;
 }
